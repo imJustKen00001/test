@@ -1,0 +1,6 @@
+.header {
+  @include flex-center;
+  padding: 20px 16px;
+  border-bottom: solid 1px #d9fff5;
+  gap: 16px;
+}

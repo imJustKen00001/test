@@ -1,1 +1,9 @@
-@import "./button.scss";
+@use "./ressetStyles.scss";
+@use "./fonts.scss";
+@use "./mixins.scss" as *;
+@use "./button.scss";
+
+body {
+  font-family: "TT Lakes", sans-serif;
+  overflow-y: scroll;
+}

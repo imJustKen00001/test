@@ -1,0 +1,30 @@
+.header__nav-menu {
+  margin-left: auto;
+}
+
+.header__nav-list {
+  @include flex-center;
+  gap: 16px;
+  
+  .header__nav-item {
+    @include flex-center;
+
+    .header__nav-link--settings {
+      background-image: url("/assets/icons/settings.svg");
+    }
+    .header__nav-link--search {
+      background-image: url("/assets/icons/search.svg");
+    }
+  }
+}
+
+.header__nav-item--grey-line {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea;
+    margin-right: 20px;
+  }
+}
