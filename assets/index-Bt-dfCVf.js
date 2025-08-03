@@ -1,4 +1,4 @@
-(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const r of n)if(r.type==="childList")for(const l of r.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&s(l)}).observe(document,{childList:!0,subtree:!0});function t(n){const r={};return n.integrity&&(r.integrity=n.integrity),n.referrerPolicy&&(r.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?r.credentials="include":n.crossOrigin==="anonymous"?r.credentials="omit":r.credentials="same-origin",r}function s(n){if(n.ep)return;n.ep=!0;const r=t(n);fetch(n.href,r)}})();function Pe(){return'<button class="header__burger-menu button"></button>'}const Le="/assets/logos/logo.svg";function Ie(){return`
+(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const r of n)if(r.type==="childList")for(const l of r.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&s(l)}).observe(document,{childList:!0,subtree:!0});function t(n){const r={};return n.integrity&&(r.integrity=n.integrity),n.referrerPolicy&&(r.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?r.credentials="include":n.crossOrigin==="anonymous"?r.credentials="omit":r.credentials="same-origin",r}function s(n){if(n.ep)return;n.ep=!0;const r=t(n);fetch(n.href,r)}})();function Pe(){return'<button class="header__burger-menu button"></button>'}const Le="/test/assets/logos/logo.svg";function Ie(){return`
         <img src="${Le}" class="header__logo" alt="Logo" />
 `}function ze(){return`
         <nav class="header__nav-menu">
@@ -38,9 +38,9 @@
      <figcaption class="content-box__caption">
         Мы являемся авторизованным сервисным центром по ремонту техники Dell.
         Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-        <button class="content-box__button"> <img src="/assets/icons/arrow.svg" class="content-box__button-image"></img>Читать далее</button>
+        <button class="content-box__button"> <img src="/test/assets/icons/arrow.svg" class="content-box__button-image"></img>Читать далее</button>
       </figcaption>
-     <img src="/assets/img/company.png" alt="Content Image" class="content-box__image">
+     <img src="/test/assets/img/company.png" alt="Content Image" class="content-box__image">
    </figure>
   </section>
   `}function Q(i,e){return`
@@ -52,44 +52,44 @@
         <div class="swiper-container brand-slider__container">
         <div class="swiper-wrapper brand-slider__menu-list">
           <div class="swiper-slide brand-slider__menu-item">
-            <img src="/assets/logos/Bitmap.svg" class="brand-slider__brand-image">
+            <img src="/test/assets/logos/Bitmap.svg" class="brand-slider__brand-image">
             <a class="brand-slider__menu-link" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg>
             </a>
           </div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-2.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-2.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-1.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-1.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-3.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-3.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-4.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-4.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-5.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-5.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-6.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-6.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-7.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-7.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-1.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-1.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-2.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-2.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
-          <div class="swiper-slide brand-slider__menu-item"><img src="/assets/logos/Bitmap-3.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <div class="swiper-slide brand-slider__menu-item"><img src="/test/assets/logos/Bitmap-3.svg" class="brand-slider__brand-image"><a class="brand-slider__menu-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/>
                 </svg></a></div>
         </div>
