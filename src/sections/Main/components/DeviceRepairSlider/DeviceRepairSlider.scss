@@ -1,7 +1,7 @@
 .device-repair {
   margin-bottom: 24px;
   padding: 16px;
-  padding-bottom: 35px;
+  padding-bottom: 40px;
   position: relative;
 
   &::before {
@@ -91,11 +91,11 @@
   --swiper-pagination-bullet-horizontal-gap: 6px;
 
   .swiper-pagination-bullet {
-    --swiper-theme-color: #dddddd;
+    background-color: #989898;
     width: 12px;
     height: 12px;
   }
   .swiper-pagination .swiper-pagination-bullet-active {
-    --swiper-theme-color: #b5b6bc;
+    background-color: #b5b6bc;
   }
 }

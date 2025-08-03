@@ -1,6 +1,7 @@
 .brand-slider {
   margin-bottom: 24px;
-  padding: 16px 0 16px 30px;
+  padding: 16px;
+  padding-bottom: 40px;
   height: 120px;
   position: relative;
   &::before {
@@ -82,15 +83,15 @@
 }
 
 .brand-slider__pagination {
-  --swiper-pagination-bottom: -8px;
+  --swiper-pagination-bottom: -10px;
   --swiper-pagination-bullet-horizontal-gap: 6px;
 
   .swiper-pagination-bullet {
-    --swiper-theme-color: #dddddd;
+    background-color: #989898;
     width: 12px;
     height: 12px;
   }
   .swiper-pagination .swiper-pagination-bullet-active {
-    --swiper-theme-color: #b5b6bc;
+    background-color: #b5b6bc;
   }
 }
