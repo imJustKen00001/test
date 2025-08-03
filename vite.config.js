@@ -3,6 +3,7 @@ import path from "path";
 import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
+  base: "/test",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

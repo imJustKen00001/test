@@ -7,9 +7,9 @@ export default function ContentBox() {
      <figcaption class="content-box__caption">
         Мы являемся авторизованным сервисным центром по ремонту техники Dell.
         Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-        <button class="content-box__button"> <img src="/assets/icons/arrow.svg" class="content-box__button-image"></img>Читать далее</button>
+        <button class="content-box__button"> <img src="/test/assets/icons/arrow.svg" class="content-box__button-image"></img>Читать далее</button>
       </figcaption>
-     <img src="/assets/img/company.png" alt="Content Image" class="content-box__image">
+     <img src="/test/assets/img/company.png" alt="Content Image" class="content-box__image">
    </figure>
   </section>
   `;
